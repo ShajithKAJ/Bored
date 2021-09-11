@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap");
+body {
+  height: 100%;
+  background-color: springgreen;
+  font-family: 'Poppins', sans-serif;
+}
+
+.activity {
+  height: 250px;
+  border-style: solid;
+  border: black;
+  color: steelblue;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 4em;
+  font-weight: 700;
+}
+
+#button {
+  width: inherit;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 2em;
+  color: black;
+  font-weight: 500;
+}
+
+#button:hover {
+  cursor: pointer;
+  background-color: steelblue;
+  font-size: 2.5em;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
